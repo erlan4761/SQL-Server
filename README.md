@@ -3,6 +3,7 @@ SQL Server database
 
 
 -----------------------------------------------------------------------------------------TABLE CLIENTS
+
 drop table CLIENTS;
 create table CLIENTS (
 	CLIENTS_ID int NOT NULL IDENTITY(1,1) primary key,
