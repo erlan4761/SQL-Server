@@ -106,7 +106,7 @@ create table ACCOUNTS (
 	OPEN_DATE date,
 	CLOSE_DATE date,
 	PRODUCT_REF int,
-	ACC_NUM nchar(25));
+	ACC_NUM nchar(25)); 
 	
 insert into accounts (name, saldo, client_ref, open_date, close_date, product_ref, acc_num)
 	values ('Кредитный счет для Сидорова И.П.',-2000, 1, CONVERT(DATETIME,'01.08.2017'), null, 1,'45502810401020000022');
